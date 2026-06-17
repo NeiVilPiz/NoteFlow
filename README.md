@@ -16,7 +16,7 @@ NoteFlow busca centralizar la gestión de notas personales, académicas y profes
 
 Tablero Trello:
 
-> Pendiente de crear y añadir enlace.
+[NoteFlow Development](https://trello.com/invite/b/6a2fa7349b5b4519c5dee803/ATTId4a1bf6f1b52a4c5437125b54d5fbc608590BFA7/noteflow-development)
 
 ## Estado del proyecto
 

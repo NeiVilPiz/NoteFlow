@@ -1,0 +1,88 @@
+# Project: NoteFlow
+
+## Context
+
+Mobile application built with:
+
+* React Native
+* Expo
+* TypeScript
+* Expo Router
+* AsyncStorage
+
+Purpose:
+
+Simple note management application using local state and local persistence.
+
+## Architecture
+
+Folders:
+
+app/
+components/
+hooks/
+services/
+types/
+docs/
+
+## Code Style
+
+* Use TypeScript everywhere.
+* Prefer functional components.
+* Use React Hooks.
+* Avoid class components.
+* Use named exports when possible.
+* Keep components small and focused.
+* Extract reusable logic into hooks.
+* Use async/await instead of promise chains.
+
+## State Management
+
+* Use local React state.
+* Do not introduce Redux, MobX, Zustand or other state libraries unless explicitly requested.
+* Persist data using AsyncStorage.
+
+## UI Rules
+
+* Keep UI simple and minimal.
+* Prefer reusable components.
+* Avoid inline styles when styles become complex.
+* Use StyleSheet.create.
+
+## Naming Conventions
+
+Components: PascalCase
+
+Example:
+
+* NoteCard.tsx
+* NoteForm.tsx
+
+Hooks:
+
+* useNotes.ts
+
+Services:
+
+* storage.ts
+
+Types:
+
+* note.ts
+
+## Restrictions
+
+* Do not add unnecessary dependencies.
+* Do not introduce backend services.
+* Do not add cloud synchronization.
+* Do not change folder structure without justification.
+* MVP must work fully offline.
+
+## Output Expectations
+
+When generating code:
+
+* Explain architectural decisions briefly.
+* Provide complete files.
+* Maintain existing project conventions.
+* Avoid placeholders whenever possible.
